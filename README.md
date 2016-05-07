@@ -9,6 +9,12 @@ Many of these files are simply proof of concept and aren't actually used for the
 Useful files:
 
 Proof of concept files:
-tapwriter.py
+tapwriter.py - generates a tap file from C64 Basic input.
+tapdump.txt - raw dump from an Arduino digital logic analyzer of the tape port's output.
+readpulse.py - simulated tape port read routine written in Python.
 
-For more information and documentation, visit my blog, particulary these pages:
+Useful files:
+c64net/c64net.ino - Arduino sketch to read from tape port (writing to tape port didn't work).
+c64net/c64net.py - Python script to bridge Arduino and Twitter (writing to C64 disabled).
+
+For more cool things, visit my blog at http://koppanyhorvath.blogspot.com/
